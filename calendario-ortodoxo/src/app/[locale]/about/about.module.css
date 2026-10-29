@@ -1,0 +1,37 @@
+.article {
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: var(--space-8) var(--space-5);
+  animation: fadeRise 480ms ease both;
+}
+
+@keyframes fadeRise {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.article h1 {
+  font-size: clamp(1.8rem, 4vw, 2.4rem);
+  color: var(--color-plum);
+  margin-bottom: var(--space-4);
+}
+
+.article p {
+  margin: 0 0 var(--space-4);
+  color: var(--color-ink);
+  font-size: 1.1rem;
+}
+
+.disclaimer {
+  padding-top: var(--space-4);
+  border-top: 1px solid var(--color-line);
+  color: var(--color-ink-muted) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.55;
+}

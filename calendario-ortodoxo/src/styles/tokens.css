@@ -1,0 +1,49 @@
+:root {
+  /* Liturgical palette — cream / plum / feast red / feast blue (not purple-AI default) */
+  --color-cream: #eae9e5;
+  --color-cream-deep: #ddd8cf;
+  --color-parchment: #f4f0e8;
+  --color-plum: #580d4d;
+  --color-plum-soft: #6e245f;
+  --color-feast-red: #e52b34;
+  --color-feast-blue: #1c58bb;
+  --color-ink: #1a1514;
+  --color-ink-muted: #5c534e;
+  --color-line: #c9c2b6;
+  --color-panel: #faf8f4;
+  --color-overlay: rgba(26, 21, 20, 0.45);
+
+  --font-display: "Libre Baskerville", "Palatino Linotype", Palatino, serif;
+  --font-body: "Source Sans 3", "Source Sans Pro", "Segoe UI", sans-serif;
+  --font-ui: "DM Sans", "Segoe UI", sans-serif;
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.5rem;
+  --space-6: 2rem;
+  --space-8: 3rem;
+
+  --radius-sm: 2px;
+  --shadow-drawer: -8px 0 32px rgba(26, 21, 20, 0.12);
+
+  --header-h: 3.5rem;
+  --rail-w: 11rem;
+  --drawer-w: min(28rem, 100vw);
+
+  --rank-red: var(--color-feast-red);
+  --rank-blue: var(--color-feast-blue);
+  --rank-black: var(--color-ink);
+  --rank-sunday: var(--color-feast-red);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

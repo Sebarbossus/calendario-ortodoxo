@@ -1,0 +1,91 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-4);
+  height: var(--header-h);
+  padding: 0 var(--space-5);
+  background: color-mix(in srgb, var(--color-parchment) 92%, transparent);
+  backdrop-filter: blur(8px);
+  border-bottom: 1px solid var(--color-line);
+}
+
+.brand {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  min-width: 0;
+}
+
+.brandName {
+  font-family: var(--font-display);
+  font-size: clamp(1.15rem, 2.5vw, 1.45rem);
+  color: var(--color-plum);
+  letter-spacing: 0.01em;
+}
+
+.brandTag {
+  font-family: var(--font-ui);
+  font-size: 0.68rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink-muted);
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  font-family: var(--font-ui);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.nav a {
+  color: var(--color-ink-muted);
+  transition: color 160ms ease;
+}
+
+.nav a:hover,
+.nav a[data-active="true"] {
+  color: var(--color-plum);
+}
+
+.locales {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.locales a {
+  padding: 0.2rem 0.45rem;
+  border: 1px solid transparent;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+  color: var(--color-ink-muted);
+  transition: border-color 160ms ease, color 160ms ease, background 160ms ease;
+}
+
+.locales a[data-active="true"] {
+  color: var(--color-plum);
+  border-color: var(--color-line);
+  background: var(--color-panel);
+}
+
+@media (max-width: 640px) {
+  .header {
+    padding: 0 var(--space-3);
+    gap: var(--space-2);
+  }
+
+  .brandTag {
+    display: none;
+  }
+
+  .nav {
+    gap: var(--space-2);
+  }
+}

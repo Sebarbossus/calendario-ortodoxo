@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Orthodox Calendar",
+    "description": "Eastern Orthodox calendar following Romanian Patriarchate (BOR) usage. Independent product."
+  },
+  "nav": {
+    "calendar": "Calendar",
+    "about": "About",
+    "web": "Web"
+  },
+  "calendar": {
+    "year": "Year {year}",
+    "selectMonth": "Month",
+    "today": "Today",
+    "close": "Close",
+    "openDay": "View day detail",
+    "fasting": "Fasting",
+    "rank": "Rank",
+    "readings": "Readings",
+    "synaxar": "Synaxar",
+    "weddings": "Weddings",
+    "memorials": "Memorials / parastas",
+    "allowed": "Allowed",
+    "notAllowed": "Not allowed",
+    "stubNote": "Provisional texts — editorial coverage in progress.",
+    "noDay": "Day not found in seeded data.",
+    "iconAlt": "Day icon (placeholder)"
+  },
+  "fasting": {
+    "none": "Fast-free (harți)",
+    "fast": "Fast day",
+    "dairy": "Dairy allowed",
+    "fish": "Fish allowed",
+    "wine_oil": "Wine and oil",
+    "strict": "Strict fast"
+  },
+  "rank": {
+    "red": "Feast († red cross)",
+    "blue": "Commemoration (blue cross)",
+    "black": "Ordinary day",
+    "sunday": "Sunday"
+  },
+  "months": {
+    "1": "January",
+    "2": "February",
+    "3": "March",
+    "4": "April",
+    "5": "May",
+    "6": "June",
+    "7": "July",
+    "8": "August",
+    "9": "September",
+    "10": "October",
+    "11": "November",
+    "12": "December"
+  },
+  "weekdays": {
+    "0": "Sun",
+    "1": "Mon",
+    "2": "Tue",
+    "3": "Wed",
+    "4": "Thu",
+    "5": "Fri",
+    "6": "Sat"
+  },
+  "disclaimer": {
+    "short": "Follows BOR calendar usage. Not an official product of the Romanian Patriarchate.",
+    "long": "Orthodox Calendar is an independent product that follows Romanian Patriarchate (BOR) liturgical calendar usage for feasts, ranks, and fasting. It is not affiliated with or endorsed by Patriarhia Română. Synaxar texts and icons are our own editorial stubs — not copyrighted Patriarchate content."
+  },
+  "about": {
+    "title": "About",
+    "body": "This MVP (Phase 0 / start of Phase 1) demonstrates the calendar information architecture, shared API routes, and equal ES / PT / EN depth. Current-year data is a structural seed; full editorial coverage comes in later phases."
+  },
+  "locale": {
+    "label": "Language",
+    "es": "Español",
+    "pt": "Português",
+    "en": "English"
+  }
+}

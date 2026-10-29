@@ -1,0 +1,20 @@
+{
+  "year": 2026,
+  "pascha": "2026-04-12",
+  "totalDays": 365,
+  "curatedMajor": 136,
+  "curatedNamedTitles": 229,
+  "movableOverlays": 38,
+  "provisionalSynaxarAll": 365,
+  "provisionalReadingCitationsAll": 365,
+  "note": "Every day has curated ES/PT/EN commemorations (menaion and/or movable). Synaxar and scripture citations are provisional stubs. Not scraped from Patriarhia.",
+  "knownGaps": [
+    "Full licensed synaxar prose in ES/PT/EN",
+    "Full lectionary text (Bible editions TBD)",
+    "Day icons (placeholder only)",
+    "Complete BOR-only local saint ranking parity pending editorial QA against Patriarhia checklist",
+    "Some lesser menaion companions may differ in order/emphasis from a given year's Patriarhia CPT entry",
+    "Wedding/memorial flags are heuristic from fasting/rank, not yet verified against BOR tables for every day"
+  ],
+  "regenerate": "node scripts/generate-seed.mjs"
+}

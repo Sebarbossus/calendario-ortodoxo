@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "title": "Calendario Ortodoxo",
+    "description": "Calendario cristiano ortodoxo según el uso de la Patriarquía Rumana (BOR). Producto independiente."
+  },
+  "nav": {
+    "calendar": "Calendario",
+    "about": "Acerca de",
+    "web": "Web"
+  },
+  "calendar": {
+    "year": "Año {year}",
+    "selectMonth": "Mes",
+    "today": "Hoy",
+    "close": "Cerrar",
+    "openDay": "Ver detalle del día",
+    "fasting": "Ayuno",
+    "rank": "Rango",
+    "readings": "Lecturas",
+    "synaxar": "Sinaxario",
+    "weddings": "Bodas",
+    "memorials": "Parastas / memoriales",
+    "allowed": "Permitido",
+    "notAllowed": "No permitido",
+    "stubNote": "Textos provisionales — cobertura editorial en curso.",
+    "noDay": "Día no encontrado en los datos sembrados.",
+    "iconAlt": "Icono del día (marcador)"
+  },
+  "fasting": {
+    "none": "Sin ayuno (harți)",
+    "fast": "Ayuno",
+    "dairy": "Lácteos permitidos",
+    "fish": "Pescado permitido",
+    "wine_oil": "Vino y aceite",
+    "strict": "Ayuno estricto"
+  },
+  "rank": {
+    "red": "Fiesta († cruz roja)",
+    "blue": "Conmemoración (cruz azul)",
+    "black": "Día ordinario",
+    "sunday": "Domingo"
+  },
+  "months": {
+    "1": "Enero",
+    "2": "Febrero",
+    "3": "Marzo",
+    "4": "Abril",
+    "5": "Mayo",
+    "6": "Junio",
+    "7": "Julio",
+    "8": "Agosto",
+    "9": "Septiembre",
+    "10": "Octubre",
+    "11": "Noviembre",
+    "12": "Diciembre"
+  },
+  "weekdays": {
+    "0": "Dom",
+    "1": "Lun",
+    "2": "Mar",
+    "3": "Mié",
+    "4": "Jue",
+    "5": "Vie",
+    "6": "Sáb"
+  },
+  "disclaimer": {
+    "short": "Sigue el uso del calendario BOR. No es un producto oficial de la Patriarquía Rumana.",
+    "long": "Calendario Ortodoxo es un producto independiente que sigue el uso litúrgico del calendario de la Patriarquía Rumana (BOR) para fiestas, rangos y ayuno. No está afiliado ni avalado por la Patriarhia Română. Los textos del sinaxario e iconos son marcadores editoriales propios — no contenido con derechos de autor de la Patriarquía."
+  },
+  "about": {
+    "title": "Acerca de",
+    "body": "Este MVP (Fase 0 / inicio de Fase 1) demuestra la arquitectura de información del calendario, las rutas de API compartidas y la paridad ES / PT / EN. Los datos del año en curso son semillas estructurales; la redacción completa llega en fases posteriores."
+  },
+  "locale": {
+    "label": "Idioma",
+    "es": "Español",
+    "pt": "Português",
+    "en": "English"
+  }
+}
